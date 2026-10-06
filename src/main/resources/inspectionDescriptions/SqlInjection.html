@@ -1,0 +1,9 @@
+<html>
+<body>
+Reports <code>mysqli_query(</code>, <code>-&gt;query(</code> or <code>-&gt;exec(</code> whose SQL string interpolates a
+variable or concatenates one, instead of using prepared-statement placeholders.
+<!-- tooltip end -->
+<p>Building the SQL text from data defeats the separation that prepared statements provide, and is the classic SQL
+injection pattern. Use <code>prepare()</code> with bound parameters.</p>
+</body>
+</html>
